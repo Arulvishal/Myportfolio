@@ -168,9 +168,93 @@
 }
 
 
+@media(min-width:0px) and (max-width:290px){
+  .logo{
+    display: flex;
+    font-size: 13px;
+    width: fit-content;
+  }
+  
+  .name { 
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 9px;
+    flex-direction: row;  
+    width: 100%;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+    background-color: #1e293b; 
+    font-family: sans-serif;
+  }
+  #photo {
+
+    height: auto;
+    width: 275px;
+    
+    
+  }
+  .edu{
+    font-size: small;
+  }
+
+  .contact{
+    flex-wrap: wrap;
+    font-size: small;
+    
+  }.home{
+    flex-wrap: wrap;
+    font-size: small;
+  }
+  #heading{
+    width: 100%;
+    font-size: 27px;
+  }
+    .proj{ width: 260px;
+      border-radius: 20px;
+      border: 2px solid black;
+      /* padding: 10px; */
+      margin: auto;
+      background-color:#c98be4;
+      font-size: small;
+    }
+    
+    .proj2{
+    
+      width: 275px;
+      height :100px;
+      border-radius: 20px;
+      border: 2px solid black;
+      padding-top:40px ;
+      margin: auto;
+      margin-top: 40px;
+      background-color:#c98be4;
+      text-align: center;
+
+  }
+  .proj img{
+    width: 260px;
+    height: auto;
+    border-radius: 20px;
+
+}
+.skill_image{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.skill-size{
+  width: 60px;
+  height: auto;
+  padding: 11px;
+}
+}
 
 
-@media(min-width:0px) and (max-width:399px){
+
+@media(min-width:291px) and (max-width:399px){
 
   .logo{
     font-size: 30px;
