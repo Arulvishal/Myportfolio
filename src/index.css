@@ -125,8 +125,10 @@
 }
 
 #item-2{ 
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex; */
+  flex-direction: column;
+  width: fit-content;
+  /* justify-content: space-evenly; */
   border: 1px solid;
 }
 .skill_image{

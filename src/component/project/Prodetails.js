@@ -4,7 +4,7 @@ const projects = {
   heading:"PROJECT",
   image:img,
   Title: "Lung disease classification by analyzing lung tissue densities",
-  technologies: ["Deep Learning", "Python", "HTML", "CSS"],
+  
   description:  
     { a: "Objective: Classify lung diseases (e.g., pneumonia, COPD) using medical imaging." ,
       b: "Model: DenseNet-121 for deep learning-based feature extraction." ,
@@ -13,16 +13,10 @@ const projects = {
       e: "Evaluation: Uses accuracy metrics and Grad-CAM for explainability." ,
       f: "Impact: Assists radiologists in faster and more accurate diagnoses." 
     },
+
+     technology: [{la: "Deep Learning"}, {la:"Python"},{la:"HTML"}, {la:"CSS"}] 
   
 };
-
-// const projects = ({ technologies }) => (
-//     <ul>
-//       {technologies.map((tech, i) => (
-//         <li key={i}>{tech}</li>
-//       ))}
-//     </ul>
-//   );
   
 
 export default projects;
