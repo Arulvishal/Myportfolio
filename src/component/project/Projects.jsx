@@ -15,13 +15,18 @@ export default function Pro(){
        <h3 id="it">{projects.description.d}</h3>
        <h3 id="it">{projects.description.e}</h3>
        <h3 id="it">{projects.description.f}</h3>
+       <div className="proskill">
        {projects.technology.map((projecttech,index)=>(
         <h3  key={index}>{projecttech.la}  </h3>
+      
+        
 
        )
        
     
-    )}
+    )
+    }
+    </div>
         
 
       </div>

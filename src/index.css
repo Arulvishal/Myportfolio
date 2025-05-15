@@ -99,6 +99,11 @@
   margin: auto;
   background-color:#c98be4;
 }
+/* .proskill{
+  display: ;
+  border: 2px solid black;
+
+} */
 
 .proj2{
 
@@ -162,14 +167,22 @@
   
 }
 
+
+
+
 @media(min-width:0px) and (max-width:399px){
+
+  .logo{
+    font-size: 30px;
+  }
   
   .name { 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap; 
     font-size: 10px;
     height: auto;
-    width: fit-content;
+    width: 100%;
     justify-content: space-evenly;
     list-style: none;
     align-items: center;
@@ -177,6 +190,13 @@
     background-color: #1e293b; 
     font-family: sans-serif;
   }
+  #photo {
+
+    height: auto;
+    width: 350px;
+    
+  }
+
   .ab{
     /* flex-wrap: wrap; */
   }
@@ -186,10 +206,13 @@
   }.home{
     flex-wrap: wrap;
   }
-    .proj{ width: 350px;
+  #heading{
+    width: 100%;
+  }
+    .proj{ width: 340px;
       border-radius: 20px;
       border: 2px solid black;
-      padding: 10px;
+      /* padding: 10px; */
       margin: auto;
       background-color:#c98be4;
     }
@@ -208,7 +231,7 @@
 
   }
   .proj img{
-    width: 350px;
+    width: 340px;
     height: auto;
     border-radius: 20px;
 
@@ -221,8 +244,86 @@
 }
 
 .skill-size{
-  width: 100px;
+  width: 80px;
   height: auto;
   padding: 11px;
 }
 }
+
+@media(min-width:400px) and (max-width:1200px){
+
+  .logo{
+    display: flex;
+    height: ;
+  }
+  
+  .name { 
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 13px;
+    flex-direction: row;  
+    width: 100%;
+    /* justify-content: space-evenly; */
+    list-style: none;
+    color: white;
+    background-color: #1e293b; 
+    font-family: sans-serif;
+  }
+  #photo {
+
+    height: auto;
+    
+    
+  }
+
+  .contact{
+    flex-wrap: wrap;
+    
+  }.home{
+    flex-wrap: wrap;
+  }
+  #heading{
+    width: 100%;
+  }
+    .proj{ width: 340px;
+      border-radius: 20px;
+      border: 2px solid black;
+      /* padding: 10px; */
+      margin: auto;
+      background-color:#c98be4;
+    }
+    
+    .proj2{
+    
+      width: 350px;
+      height :100px;
+      border-radius: 20px;
+      border: 2px solid black;
+      padding-top:40px ;
+      margin: auto;
+      margin-top: 40px;
+      background-color:#c98be4;
+      text-align: center;
+
+  }
+  .proj img{
+    width: 340px;
+    height: auto;
+    border-radius: 20px;
+
+}
+.skill_image{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.skill-size{
+  width: 80px;
+  height: auto;
+  padding: 11px;
+}
+}
+
+ter;
