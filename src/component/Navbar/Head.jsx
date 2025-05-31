@@ -3,7 +3,8 @@ import { Navi } from "./Navi"
 
 export default function Head(){
     return(
-        <><div className="ab">
+        <> 
+        <div className="flex sticky top-0 justify-between  sm:flex-wrap">
        
             <Logo/>
             <Navi/>

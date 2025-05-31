@@ -8,7 +8,7 @@ export function Contact(){
     return(
         <>
 
-<div className="contact">
+<div className="border-2 p-1 mt-6 flex justify-between border-2 bg-green-300 flex-wrap ">
     
 
 <p><FaInstagram />peace_dude_vishal</p>
